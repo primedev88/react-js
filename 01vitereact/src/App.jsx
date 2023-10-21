@@ -1,13 +1,14 @@
-
-
-
-
+import Test from './Test'
 
 function App() {
-  
-
+  const username='ak47'
   return (
-    <h1>Hello To you | AK </h1>
+    <>
+      <Test/>
+      <h1> Its me say Helllo! {username}</h1>
+      <p>test para</p>
+    </>
+    
   )
 }
 
